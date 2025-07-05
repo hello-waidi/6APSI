@@ -70,7 +70,7 @@ function Game() {
             : "url('https://via.placeholder.com/90x90?text=??')",
         }}
       >
-        {!revealed[index] && <span className="qn">?</span>}
+        {!revealed[index] && <span className="num">{index + 1}</span>}
       </div>
     ));
   };
