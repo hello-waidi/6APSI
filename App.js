@@ -4,12 +4,12 @@
 //import React from 'react';
 //import LoginPage from './LoginPage';
 //import './App.css';
-import Game from './Game';
+import Calculator from './Calculator';
 
 function App() {
   return (
-    <div className="App">
-        <Game />
+    <div>
+        <Calculator />
     </div>
   );
 }
